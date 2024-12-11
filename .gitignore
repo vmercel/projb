@@ -5,3 +5,65 @@
 #DONOT ignore those files (this is what the ! is for - un ignore files)
 !_.weirdBackupFileType
 !Z.travis.yml
+
+# Java and Maven-specific files
+target/
+*.jar
+*.war
+*.ear
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Application-specific files
+.env
+*.env
+*.yml
+*.yaml
+application*.properties
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Build files
+build/
+dist/
+
+# Node.js files (if applicable for front-end builds)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Misc
+!.mvn/wrapper/maven-wrapper.jar
+

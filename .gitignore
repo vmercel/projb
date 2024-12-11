@@ -1,0 +1,7 @@
+# ignore those files 
+.weirdBackupFileType
+.travis.yml
+
+#DONOT ignore those files (this is what the ! is for - un ignore files)
+!_.weirdBackupFileType
+!Z.travis.yml
